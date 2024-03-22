@@ -233,6 +233,10 @@ app.post('/login', async function(req, res) {
           <button style="background-color: pink; padding: 10px; border-radius: 5px;">
             <a href="/cookie-report" style="text-decoration: none; color: white;">Cookie report</a>
           </button>
+          </button>
+          <button style="background-color: pink; padding: 10px; border-radius: 5px;">
+          <a href="/clear-cookies" style="text-decoration: none; color: white;">Clear Cookies</a>
+          </button>
         </div>
     `);
   } catch (error) {
